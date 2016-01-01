@@ -1,5 +1,5 @@
 FROM alpine:3.2
-MAINTAINER Andreas Linz "klingt.net@gmail.com"
+MAINTAINER Bradley Bossard <bradleybossard@gmail.com>
 
 # install requirements
 RUN apk update &&\
