@@ -1,0 +1,7 @@
+cherrymusic:
+  build: .
+  ports:
+    - 8088:3000
+  volumes:
+    - "./music:/music"
+    - "./local:/root/.local"
